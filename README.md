@@ -1,74 +1,67 @@
 # Champion Selection Manager
 
-Champion Selection Manager é uma aplicação desenvolvida com NativePHP e Electron. Esta ferramenta permite a seleção e gerenciamento de campeões de forma eficiente e intuitiva.
+Champion Selection Manager é uma aplicação desenvolvida com **NativePHP** e **Electron**, criada para facilitar a **seleção e gerenciamento de campeões** no League of Legends. Com uma interface intuitiva, a ferramenta automatiza o processo de aceitação de partidas e configuração da seleção de campeão.
 
-## Funcionalidades  
+## ✨ Funcionalidades  
 
 ✅ **Aceitação Automática de Partidas**: Detecta e aceita partidas automaticamente no League of Legends.  
-❌ **Gerenciamento de Seleção de Campeão**: Configure automaticamente bans, campeões preferidos por posição e feitiços de invocador. *(Em desenvolvimento)*   
-✅ **Publicação Multi-Plataforma**: Publique a aplicação para Windows, macOS e Linux.
+❌ **Gerenciamento de Seleção de Campeão**: Configure automaticamente bans, campeões preferidos por posição e feitiços de invocador. *(Em desenvolvimento)*  
+✅ **Publicação Multi-Plataforma**: Disponível para Windows, macOS e Linux.  
 
+## 🛠 Tecnologias Utilizadas  
 
-## Tecnologias Utilizadas
+- **NativePHP** – Framework PHP para desenvolvimento de aplicações desktop.  
+- **Electron** – Framework para criação de aplicações desktop com tecnologias web.  
+- **Laravel** – Framework PHP para o backend.  
+- **Tailwind CSS** – Framework CSS para estilização.  
+- **SQLite** – Banco de dados para armazenamento local.  
 
-- **NativePHP**: Framework PHP para desenvolvimento de aplicações desktop.
-- **Electron**: Framework para criação de aplicações desktop utilizando tecnologias web.
-- **Tailwind CSS**: Framework CSS para estilização.
-- **Laravel**: Framework PHP para backend.
-- **SQLite**: Banco de dados utilizado para armazenamento de dados.
+## 🚀 Como Executar  
 
-## Como Executar
-
-1. Clone o repositório:
+1. Clone o repositório:  
     ```sh
     git clone https://github.com/seu-usuario/champion-selection-manager.git
+    cd champion-selection-manager
     ```
 
-2. Instale as dependências:
+2. Instale as dependências:  
     ```sh
-    cd champion-selection-manager
     npm install
     composer install
     ```
 
-3. Configure as variáveis de ambiente:
+3. Configure as variáveis de ambiente:  
     ```sh
     cp .env.example .env
     ```
 
-4. Execute a aplicação em modo de desenvolvimento:
+4. Execute a aplicação em modo de desenvolvimento:  
     ```sh
     composer native:dev
     ```
 
-5. Para construir a aplicação para produção:
+5. Para construir a aplicação para produção:  
     ```sh
     php artisan native:build
     ```
 
-## Publicação
+## 📦 Publicação  
 
-Para publicar a aplicação, utilize os seguintes comandos:
+Para gerar a versão final da aplicação para diferentes sistemas operacionais, utilize:  
 
-- **Windows**:
+- **Windows**:  
     ```sh
     npm run publish:win
     ```
-
-- **macOS**:
+- **macOS**:  
     ```sh
     npm run publish:mac
     ```
-
-- **Linux**:
+- **Linux**:  
     ```sh
     npm run publish:linux
     ```
 
-## Contribuição
+## 🤝 Contribuição  
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
+Contribuições são bem-vindas! Se encontrar bugs, tiver sugestões ou quiser colaborar com o desenvolvimento, abra uma **issue** ou envie um **pull request**.  

@@ -2,12 +2,12 @@
 
 Champion Selection Manager é uma aplicação desenvolvida com NativePHP e Electron. Esta ferramenta permite a seleção e gerenciamento de campeões de forma eficiente e intuitiva.
 
-## Funcionalidades
+## Funcionalidades  
 
-- **Gerenciamento de Campeões**: Adicione, edite e remova campeões facilmente.
-- **Integração com Redis e Memcached**: Utilize Redis e Memcached para cache e armazenamento rápido.
-- **Configurações Flexíveis**: Personalize a aplicação através de variáveis de ambiente.
-- **Publicação Multi-Plataforma**: Publique a aplicação para Windows, macOS e Linux.
+✅ **Aceitação Automática de Partidas**: Detecta e aceita partidas automaticamente no League of Legends.  
+❌ **Gerenciamento de Seleção de Campeão**: Configure automaticamente bans, campeões preferidos por posição e feitiços de invocador. *(Em desenvolvimento)*   
+✅ **Publicação Multi-Plataforma**: Publique a aplicação para Windows, macOS e Linux.
+
 
 ## Tecnologias Utilizadas
 

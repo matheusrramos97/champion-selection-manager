@@ -62,6 +62,10 @@ Para gerar a versão final da aplicação para diferentes sistemas operacionais,
     npm run publish:linux
     ```
 
+## 🔗 Download  
+
+Você pode baixar a versão mais recente da aplicação [aqui](https://drive.google.com/file/d/1ppjlM0VYJEGUQwz6Pua9GxpDHxzEOl2z/view?usp=sharing).
+
 ## 🤝 Contribuição  
 
 Contribuições são bem-vindas! Se encontrar bugs, tiver sugestões ou quiser colaborar com o desenvolvimento, abra uma **issue** ou envie um **pull request**.  

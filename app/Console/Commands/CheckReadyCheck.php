@@ -18,7 +18,7 @@ class CheckReadyCheck extends Command
             return;
         }
 
-        $playerStatus = LolClient::getPlayerStatus();
+        $playerStatus = LolClient::updatePlayerStatus();
 
         if($playerStatus !== "Matchmaking"){
             return;
@@ -28,7 +28,7 @@ class CheckReadyCheck extends Command
         $readyCheck = LolClient::updateReadyCheck();
         $this->info("readyCheck: $readyCheck");
 
-        if($readyCheck){
+        if($readyCheck == "ReadyCheck"){
             LolClient::readyCheckAccept();
         }
     }

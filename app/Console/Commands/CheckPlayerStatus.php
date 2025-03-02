@@ -37,6 +37,10 @@ class CheckPlayerStatus extends Command
         $this->info("playerStatus: $playerStatus");
 
         PlayerStatusChanged::dispatch($playerStatus);
+        
+        if($playerStatus === "ReadyCheck"){
+            LolClient::readyCheckAccept();
+        }
     }
 
     public function info($message, $verbosity = null)

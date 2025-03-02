@@ -13,4 +13,4 @@ Schedule::command('lol:check-connection')->everyTenSeconds();
 
 Schedule::command('lol:check-player-status')->everyFiveSeconds();
 
-Schedule::command('lol:check-ready-check')->everyTwoSeconds();
+// Schedule::command('lol:check-ready-check')->everyTwoSeconds();
